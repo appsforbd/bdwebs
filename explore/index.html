@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQCL48DSPG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NQCL48DSPG');
+    </script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="image/icon/bdwebs.ico">
+    <link rel="apple-touch-icon" sizes="275x275" href="image/icon/bdwebs.png">
+    　
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i"
+          rel="stylesheet">
+    <meta http-equiv="content-type" charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Toozle">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#8f6552">
+    <link rel="apple-touch-icon" href="image/icon/icon-192x192.png">
+    <meta http-equiv="content-type" charset="utf-8">
+    <title>Explore BDWebs.com services</title>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('serviceworker.js').then(function () {
+                console.log("BDWebs CSE Installed, Done.");
+            });
+        }
+    </script>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+<div class="container">
+    <div class="sw">
+        <form method="GET" action="./" name="search" id="form_se">
+            <input type="search" name="q" id="search" class="search" placeholder="Search..."/>
+            <button class="go" type="submit">
+                <svg enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml:space="preserve"
+                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M497.913,497.913c-18.782,18.782-49.225,18.782-68.008,0l-84.862-84.863c-34.889,22.382-76.13,35.717-120.659,35.717  C100.469,448.767,0,348.312,0,224.383S100.469,0,224.384,0c123.931,0,224.384,100.452,224.384,224.383  c0,44.514-13.352,85.771-35.718,120.676l84.863,84.863C516.695,448.704,516.695,479.131,497.913,497.913z M224.384,64.109  c-88.511,0-160.274,71.747-160.274,160.273c0,88.526,71.764,160.274,160.274,160.274c88.525,0,160.273-71.748,160.273-160.274  C384.657,135.856,312.909,64.109,224.384,64.109z"/></svg>
+            </button>
+            <a href="#" class="logo" title="BDWebs">
+                <img src="image/bdwebs.png" alt="BDWebs">
+            </a>
+        </form>
+    </div>
+    <div class="content">
+        <div class="gcse-searchresults-only"></div>
+    </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=338f0109a152215fb"></script>
+</div>
+</body>
+</html>    
